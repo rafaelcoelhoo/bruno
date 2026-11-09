@@ -30,6 +30,10 @@ export default function PrivacyPolicyPage() {
           <li>Localidade da obra;</li>
           <li>Descrição do trabalho pretendido e eventuais fotografias que nos envie.</li>
         </ul>
+        <p>
+          Este site não utiliza cookies de publicidade, de perfil ou de redes sociais, nem ferramentas de análise de
+          visitas.
+        </p>
       </LegalSection>
 
       <LegalSection title="3. Para que usamos os dados">

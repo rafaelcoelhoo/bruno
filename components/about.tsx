@@ -4,15 +4,11 @@ import { SectionHeading } from '@/components/section-heading'
 const principles = [
   {
     title: 'Como se fosse em minha casa',
-    description: 'Protejo móveis e chão, trabalho com cuidado e deixo tudo limpo no fim de cada dia.',
+    description: 'Trabalho com cuidado, respeito o espaço de cada um e deixo tudo limpo no final do trabalho.',
   },
   {
     title: 'Preço claro, sem surpresas',
     description: 'O orçamento é detalhado e por escrito. Se surgir algo imprevisto, falamos antes de avançar.',
-  },
-  {
-    title: 'Palavra cumprida',
-    description: 'Combino datas que consigo cumprir. Prefiro dizer a verdade a prometer o impossível.',
   },
 ]
 
@@ -22,7 +18,7 @@ export function About() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 md:px-6 lg:grid-cols-[5fr_6fr] lg:gap-16">
         <figure className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?auto=format&fit=crop&w=1000&q=80"
+            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=80"
             alt="O Bruno junto a uma serra de esquadria na oficina"
             width={1000}
             height={1200}
@@ -42,9 +38,8 @@ export function About() {
           />
           <div className="flex flex-col gap-4 text-lg leading-relaxed text-muted-foreground">
             <p>
-              Sou de Ovar e trabalho em obras desde novo. Com os anos percebi que muitas pessoas ficam sem resposta
-              quando precisam de um trabalho mais pequeno: as empresas grandes não têm tempo e os biscates nem sempre
-              correm bem.
+              Sou de Ovar e trabalho em obras desde novo. Com os anos percebi que muitas pessoas ficam sem resposta,
+              seja num trabalho pequeno ou numa obra maior.
             </p>
             <p>
               Foi por isso que comecei por conta própria. Sou eu que faço a visita, o orçamento e que estou na obra.
@@ -55,7 +50,7 @@ export function About() {
           <ul className="flex flex-col gap-5 border-t border-border pt-8">
             {principles.map((item) => (
               <li key={item.title} className="flex gap-4">
-                <span aria-hidden="true" className="mt-2 size-2.5 shrink-0 rounded-full bg-accent" />
+                <span aria-hidden="true" className="mt-2 size-2.5 shrink-0 rounded-full bg-green-500" />
                 <div className="flex flex-col gap-1">
                   <h3 className="font-display text-lg font-bold">{item.title}</h3>
                   <p className="leading-relaxed text-muted-foreground">{item.description}</p>

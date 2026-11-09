@@ -10,12 +10,12 @@ const services = [
   {
     icon: ChefHat,
     title: 'Cozinhas',
-    description: 'Revestimentos, bancadas, pontos de água e luz, e montagem de móveis à medida.',
+    description: 'Remodelação completa de cozinhas: revestimentos, bancadas, pontos de água e luz, e acabamentos.',
   },
   {
     icon: PaintRoller,
     title: 'Pinturas',
-    description: 'Interiores e fachadas, tratamento de humidades e acabamentos limpos, sem manchas nem pingos.',
+    description: 'Interiores e fachadas, tratamento de humidades e acabamentos limpos.',
   },
   {
     icon: Grid3x3,
@@ -25,12 +25,12 @@ const services = [
   {
     icon: Layers,
     title: 'Pladur e tetos falsos',
-    description: 'Divisórias, sancas, tetos falsos com iluminação embutida e isolamento térmico e acústico.',
+    description: 'Divisórias, tetos falsos com iluminação embutida e isolamento térmico e acústico.',
   },
   {
     icon: Home,
     title: 'Telhados',
-    description: 'Substituição de telhas partidas, limpeza, caleiras e revisão antes do inverno.',
+    description: 'Substituição de telhados, reparação de telhas partidas, caleiras e revisão antes do inverno.',
   },
   {
     icon: Droplets,
@@ -57,7 +57,7 @@ export function Services() {
           id="servicos-title"
           eyebrow="Serviços"
           title="Tudo o que a sua casa precisa, sem precisar de uma construtora grande."
-          description="Trabalhamos com obras pequenas e médias: rápidas, bem feitas e com um só responsável do início ao fim."
+          description="Trabalhamos desde pequenas reparações a remodelações completas, com um só responsável do início ao fim."
         />
 
         <ul className="grid gap-px overflow-hidden rounded-md border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">

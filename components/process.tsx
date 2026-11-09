@@ -15,7 +15,7 @@ const steps = [
   },
   {
     title: 'Entrega',
-    description: 'Revemos juntos o resultado, limpo o espaço e entrego a fatura com a garantia.',
+    description: 'Revemos juntos o resultado, limpo o espaço e faço a entrega final.',
   },
 ]
 

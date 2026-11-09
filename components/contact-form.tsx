@@ -71,14 +71,22 @@ export function ContactForm() {
       className="flex flex-col gap-6 rounded-md border border-border bg-background p-6 md:p-8"
       noValidate={false}
     >
+      <p className="text-sm text-muted-foreground">
+        Os campos marcados com <span aria-hidden="true" className="text-destructive">*</span> são obrigatórios.
+      </p>
+
       <FieldGroup>
         <div className="grid gap-6 sm:grid-cols-2">
           <Field>
-            <FieldLabel htmlFor="name">Nome</FieldLabel>
+            <FieldLabel htmlFor="name">
+              Nome <span aria-hidden="true" className="text-destructive">*</span>
+            </FieldLabel>
             <Input id="name" name="name" autoComplete="name" required className="bg-card" />
           </Field>
           <Field>
-            <FieldLabel htmlFor="phone">Telemóvel</FieldLabel>
+            <FieldLabel htmlFor="phone">
+              Telemóvel <span aria-hidden="true" className="text-destructive">*</span>
+            </FieldLabel>
             <Input
               id="phone"
               name="phone"
@@ -94,7 +102,9 @@ export function ContactForm() {
 
         <div className="grid gap-6 sm:grid-cols-2">
           <Field>
-            <FieldLabel htmlFor="location">Localidade</FieldLabel>
+            <FieldLabel htmlFor="location">
+              Localidade <span aria-hidden="true" className="text-destructive">*</span>
+            </FieldLabel>
             <Input id="location" name="location" autoComplete="address-level2" placeholder="Ex.: Esmoriz" required className="bg-card" />
           </Field>
           <Field>
@@ -115,7 +125,9 @@ export function ContactForm() {
         </div>
 
         <Field>
-          <FieldLabel htmlFor="message">O que precisa?</FieldLabel>
+          <FieldLabel htmlFor="message">
+            O que precisa? <span aria-hidden="true" className="text-destructive">*</span>
+          </FieldLabel>
           <Textarea
             id="message"
             name="message"
@@ -144,7 +156,8 @@ export function ContactForm() {
                 <Link href="/politica-de-privacidade" className="font-medium text-primary underline underline-offset-4">
                   Política de Privacidade
                 </Link>
-                .
+                .{' '}
+                <span aria-hidden="true" className="text-destructive">*</span>
               </span>
             </FieldLabel>
             {consentError ? <FieldError>Precisa de aceitar para podermos responder.</FieldError> : null}

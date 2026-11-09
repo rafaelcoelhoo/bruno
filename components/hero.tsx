@@ -10,13 +10,13 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-14 md:px-6 md:py-20 lg:grid-cols-2 lg:gap-16">
         <div className="flex flex-col gap-6">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-            Ovar · Esmoriz · Feira · Espinho
+            Ovar · Esmoriz · Feira · Oliveira de Azeméis
           </p>
           <h1
             id="hero-title"
             className="font-display text-5xl font-black leading-none tracking-tight text-balance md:text-6xl lg:text-7xl"
           >
-            Pequenas obras, feitas com brio.
+            Obras e remodelações em Ovar, feitas com brio.
           </h1>
           <p className="max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
             Remodelações de casas de banho e cozinhas, pinturas, pavimentos, telhados e aquelas reparações que andam a
@@ -35,14 +35,14 @@ export function Hero() {
             </Button>
           </div>
 
-          <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-2">
+          {/* <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-2">
             {assurances.map((item) => (
               <li key={item} className="flex items-center gap-2 text-sm font-medium">
                 <Check aria-hidden="true" className="size-4 text-primary" />
                 {item}
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
 
         <div className="relative">

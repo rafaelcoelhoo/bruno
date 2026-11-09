@@ -7,16 +7,12 @@ const questions = [
     a: 'Sim. A visita ao local e o orçamento são gratuitos e sem compromisso dentro da zona de trabalho habitual.',
   },
   {
-    q: 'Fazem trabalhos muito pequenos?',
-    a: 'Fazemos. Trocar meia dúzia de azulejos, reparar uma infiltração ou pintar uma divisão são trabalhos tão importantes como uma remodelação completa.',
+    q: 'Fazem trabalhos pequenos e também obras maiores?',
+    a: 'Fazemos os dois. Trocar meia dúzia de azulejos, reparar uma infiltração ou pintar uma divisão são trabalhos tão importantes como uma remodelação completa, que também fazemos.',
   },
   {
     q: 'O material está incluído no preço?',
     a: 'Pode escolher. Indicamos no orçamento o valor da mão de obra e do material separadamente, e ajudamos a escolher materiais com boa relação qualidade/preço.',
-  },
-  {
-    q: 'Passam fatura?',
-    a: 'Sempre. Todos os trabalhos são faturados com o seu NIF, o que também conta para as suas despesas no IRS quando aplicável.',
   },
   {
     q: 'Quanto tempo demora uma remodelação de casa de banho?',
