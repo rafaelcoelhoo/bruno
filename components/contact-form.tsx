@@ -166,11 +166,11 @@ export function ContactForm() {
       </FieldGroup>
 
       <div className="flex flex-col gap-3 sm:flex-row">
-        <Button type="submit" size="lg" className="h-12 flex-1 text-base">
+        <Button type="submit" size="lg" className="h-auto flex-1 py-[10px] text-base">
           <MessageCircle aria-hidden="true" />
           Enviar por WhatsApp
         </Button>
-        <Button type="button" size="lg" variant="outline" className="h-12 flex-1 bg-card text-base" onClick={sendEmail}>
+        <Button type="button" size="lg" variant="outline" className="h-auto flex-1 bg-card py-[10px] text-base" onClick={sendEmail}>
           <Mail aria-hidden="true" />
           Enviar por email
         </Button>
