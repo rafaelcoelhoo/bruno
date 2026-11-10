@@ -11,7 +11,7 @@ export function ServiceArea() {
           id="zona-title"
           eyebrow="Zona de trabalho"
           title="Ovar e arredores."
-          description="Trabalho principalmente no concelho de Ovar e nos concelhos vizinhos. Se não vê a sua localidade, pergunte — se for perto, vamos."
+          description="Trabalho principalmente no concelho de Ovar e nos concelhos vizinhos. Se não vê a sua localidade, pergunte, se for perto, vamos."
           inverted
         />
 
